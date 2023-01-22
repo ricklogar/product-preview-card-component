@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Frontend Mentor | Product preview card component | ricklogar</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./src/css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main class="hero">
+    <div class="card-container">
+
+      <section class="first-section">
+        <picture class="img-container">
+          <source media="(max-width: 1439px)" srcset="./src/images/image-product-mobile.jpg">
+          <source media="(min-width: 1440px)" srcset="./src/images/image-product-desktop.jpg">
+          <img src="./src/images/image-product-mobile.jpg" alt="">
+        </picture>
+      </section>
+
+      <section class="second-section">
+        <div class="mini-title-container">
+          <h2>P E R F U M E</h2>
+        </div>
+        <div class="title-container">
+          <h1>Gabrielle Essence Eau De Parfum</h1>
+        </div>
+        <div class="text-container">
+          <p>A floral, solar and voluptuous interpretation compossed by Oliver Polge, Perfumer-Creator for the House of CHANEL.</p>
+        </div>
+        <div class="price-container">
+          <span class="new-price">$149.99</span>
+          <span class="original-price">$169.99</span>
+        </div>
+        <div class="button-container">
+          <button type="button"> <img src="./src/images/icon-cart.svg" alt=""> Add to Cart </button>
+        </div>
+      </section>
+    </div>
+    
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://github.com/ricklogar">ricklogar</a>.
+    </div>
+  </main>
+</body>
+</html>
